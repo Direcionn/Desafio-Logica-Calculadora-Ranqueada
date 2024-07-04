@@ -32,6 +32,8 @@ public class calculadora_ranqueada {
         }
 
         System.out.println("O héroi tem saldo de "+saldo+" vitorias e está na patente "+patente+" do ranking.");
+
+        scanner.close();
     }
 
     static int calcularSaldo(int vitorias, int derrotas){
